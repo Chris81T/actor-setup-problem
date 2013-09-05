@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Home</title>
+</head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
+
+    <section>
+        <h4>Login</h4>
+
+        <div class="callout panel">
+            You can use the username "hulk" with the password "hero" for instance. Using another user please have a look
+            into the shiro.ini file.
+        </div>
+
+        <form data-lift="lift:LoginSnippet?form=post">
+	        <label>Username:</label>
+	        <input name="user" type="text" placeholder="Please enter your name"></input>
+	        <label>Password:</label>
+	        <input name="password" type="password" placeholder="Please enter your password"></textarea></input>
+	        <!-- custom attribute -> small required for foundation -->
+	        <button name="login-button" class="button" type="submit">login</button>
+	        <span class="lift:Msg?id=failed&errorClass=error%20alert%20label">failed</span> 
+        </form>
+    </section>
+    
+</div>      
+</body>
+</html>
+

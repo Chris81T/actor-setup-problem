@@ -1,0 +1,26 @@
+html body {
+    background-color: #FCFCFC;
+}
+
+#navigation-header {
+    margin-bottom: 0px;
+}
+
+/* set initial the fixed-header components to display: none. The logic will do the rest */
+#global-message,
+#continue-composing {
+    display: none;
+}
+
+#fixed-header-box .alert-box {
+    margin: 0px;
+}
+
+#action-bar {
+    padding: 2px;
+}
+
+textarea {
+    height: 230px;
+}
+

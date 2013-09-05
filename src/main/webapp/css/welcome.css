@@ -1,0 +1,9 @@
+/*
+ Special css file for welcome page. For instance the row-width should be the default value of foundation's framework.
+ On all other pages a bigger width is requested.
+ */
+
+/* TODO adapt this width depends on the media-size */
+.row {
+    width: 1000px;
+}
